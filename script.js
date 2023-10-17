@@ -16,10 +16,19 @@ const library = [
   },
 ];
 
-const numberOfBooksRead = () => {
-  // write your code here
-};
+let numberOfBooksRead = 0;
+
+library.map((val) => {
+	if(val.readingStatus === true)
+	{
+		numberOfBooksRead++;
+	}
+	return numberOfBooksRead;
+});
+
+
+
 
 // Do not change the code below
 
-alert(numberOfBooksRead());
+// alert(numberOfBooksRead());

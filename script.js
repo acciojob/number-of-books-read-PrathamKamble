@@ -23,8 +23,8 @@ library.map((val) => {
 	{
 		numberOfBooksRead++;
 	}
-});
 return numberOfBooksRead;
+});
 
 
 
